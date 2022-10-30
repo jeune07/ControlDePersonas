@@ -3,8 +3,18 @@ import java.util.List;
 
 public class Group {
 private List<Persona> personas;
+
+    public List<Persona> getPersonas() {
+        return personas;
+    }
+
+    public void setPersonas(List<Persona> personas) {
+        this.personas = personas;
+    }
+
     public Group(){
         personas =new ArrayList<>();
+
     }
     public void agregarPersona(Persona p){
         boolean cheakMayor=p.esMayorEdad();

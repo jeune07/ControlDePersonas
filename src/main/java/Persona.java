@@ -46,7 +46,7 @@ public class Persona {
                 return resultado;
             }
 
-        }resultado=true;
+        }resultado=false;
         return resultado;
     }
 
